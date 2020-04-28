@@ -1,0 +1,18 @@
+  [1m[35m (777.9ms)[0m  [1m[35mCREATE DATABASE "myapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (663.7ms)[0m  [1m[35mCREATE DATABASE "myapp_test" ENCODING = 'unicode'[0m
+Started GET "/" for 172.19.0.1 at 2020-04-27 00:05:33 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.9ms | Allocations: 406)
+Completed 200 OK in 20ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 2343)
+
+
+Started GET "/" for 172.19.0.1 at 2020-04-27 06:46:46 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 24.5ms | Allocations: 294)
+Completed 200 OK in 118ms (Views: 59.1ms | ActiveRecord: 0.0ms | Allocations: 1637)
+
+
